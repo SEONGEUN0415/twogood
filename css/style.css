@@ -54,6 +54,7 @@ body{
     background-color: var(--white);
     font-family: 'Mulish';
     font-weight: normal;
+    min-width: 1920px;
 }
 a{
     text-decoration: none;
@@ -182,9 +183,9 @@ li{
 }
 .main__visual div{
     position: absolute;
-    top: 50%;
+    top: 30%;
     right: -50%;
-    transform: translate(10%, -130%);
+    transform: translate(-10%, -50%);
 }
 .main__visual div strong{
     font-size: 2rem;
@@ -379,7 +380,8 @@ li{
     transition: all 1s 0.2s;
 }
 .section02 .list .item figure{
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 .section02 .list .item figure img{
     width: 100%;
